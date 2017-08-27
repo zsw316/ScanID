@@ -13,7 +13,8 @@ Scan New Zealand Driver licence and recognize identity information using Tessera
 * open in XCode and run
 
 # Screenshots
-<img src="https://github.com/zsw316/ScanID/blob/master/screenshots/Drivers.jpeg" width="30%" height="30%">
-<img src="https://github.com/zsw316/ScanID/blob/master/screenshots/identity.png" width="30%" height="30%">
 <img src="https://github.com/zsw316/ScanID/blob/master/screenshots/recognition.png" width="30%" height="30%">
 <img src="https://github.com/zsw316/ScanID/blob/master/screenshots/scan.jpeg" width="30%" height="30%">
+<img src="https://github.com/zsw316/ScanID/blob/master/screenshots/Drivers.jpeg" width="30%" height="30%">
+<img src="https://github.com/zsw316/ScanID/blob/master/screenshots/identity.png" width="30%" height="30%">
+
