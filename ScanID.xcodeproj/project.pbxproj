@@ -1,0 +1,561 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		67858E121F5163CE00F96ACE /* DriverRecognizerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67858E111F5163CE00F96ACE /* DriverRecognizerViewController.swift */; };
+		67858E171F522E9600F96ACE /* BaseEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67858E161F522E9600F96ACE /* BaseEntity.swift */; };
+		67858E191F522EB100F96ACE /* DriverLicenseEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67858E181F522EB100F96ACE /* DriverLicenseEntity.swift */; };
+		67858E1B1F52340700F96ACE /* String+IdentityParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67858E1A1F52340700F96ACE /* String+IdentityParser.swift */; };
+		67858E1F1F5254AF00F96ACE /* DBHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67858E1E1F5254AF00F96ACE /* DBHelper.swift */; };
+		67858E221F525C0A00F96ACE /* DriverLicenceDAO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67858E211F525C0A00F96ACE /* DriverLicenceDAO.swift */; };
+		67858E251F52656800F96ACE /* DriverLicenceService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67858E241F52656800F96ACE /* DriverLicenceService.swift */; };
+		67858E271F5271F300F96ACE /* CustomActivityIndicator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67858E261F5271F300F96ACE /* CustomActivityIndicator.swift */; };
+		67858E2A1F528CFC00F96ACE /* DriverDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67858E291F528CFC00F96ACE /* DriverDetailViewController.swift */; };
+		67F1F2091F50C75700B34487 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67F1F2081F50C75700B34487 /* AppDelegate.swift */; };
+		67F1F20B1F50C75700B34487 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67F1F20A1F50C75700B34487 /* ViewController.swift */; };
+		67F1F20E1F50C75700B34487 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 67F1F20C1F50C75700B34487 /* Main.storyboard */; };
+		67F1F2101F50C75700B34487 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 67F1F20F1F50C75700B34487 /* Assets.xcassets */; };
+		67F1F2131F50C75700B34487 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 67F1F2111F50C75700B34487 /* LaunchScreen.storyboard */; };
+		67F1F21B1F50CCA600B34487 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 67F1F21A1F50CCA600B34487 /* libz.tbd */; };
+		67F1F21D1F50CF4700B34487 /* libTesseractOCRiOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 67F1F21C1F50CF4700B34487 /* libTesseractOCRiOS.a */; };
+		67F1F21F1F50D14900B34487 /* tessdata in Resources */ = {isa = PBXBuildFile; fileRef = 67F1F21E1F50D14900B34487 /* tessdata */; };
+		67F1F2291F50E4CC00B34487 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67F1F2281F50E4CC00B34487 /* BaseViewController.swift */; };
+		67F1F22D1F50E55300B34487 /* ScannerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67F1F22C1F50E55300B34487 /* ScannerViewController.swift */; };
+		67F1F22F1F50E58700B34487 /* ScannerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67F1F22E1F50E58700B34487 /* ScannerView.swift */; };
+		67F1F2321F51292900B34487 /* DriverListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67F1F2311F51292900B34487 /* DriverListViewController.swift */; };
+		67F1F2341F512DC400B34487 /* BaseNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67F1F2331F512DC400B34487 /* BaseNavigationController.swift */; };
+		B476BDCCF2A2377606C0D89D /* libPods-ScanID.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AAEA7618CF808B2A6F4E5D64 /* libPods-ScanID.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		53FFDA79D1501AC592FB59B4 /* Pods-ScanID.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ScanID.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ScanID/Pods-ScanID.debug.xcconfig"; sourceTree = "<group>"; };
+		5745982F6C4716B9AC38D350 /* Pods-ScanID.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ScanID.release.xcconfig"; path = "Pods/Target Support Files/Pods-ScanID/Pods-ScanID.release.xcconfig"; sourceTree = "<group>"; };
+		67858E111F5163CE00F96ACE /* DriverRecognizerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DriverRecognizerViewController.swift; path = Module/DriverRecognizer/DriverRecognizerViewController.swift; sourceTree = "<group>"; };
+		67858E161F522E9600F96ACE /* BaseEntity.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = BaseEntity.swift; path = Model/BaseEntity.swift; sourceTree = "<group>"; };
+		67858E181F522EB100F96ACE /* DriverLicenseEntity.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DriverLicenseEntity.swift; path = Model/DriverLicenseEntity.swift; sourceTree = "<group>"; };
+		67858E1A1F52340700F96ACE /* String+IdentityParser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "String+IdentityParser.swift"; path = "Category/String+IdentityParser.swift"; sourceTree = "<group>"; };
+		67858E1E1F5254AF00F96ACE /* DBHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DBHelper.swift; path = Helper/DB/DBHelper.swift; sourceTree = "<group>"; };
+		67858E211F525C0A00F96ACE /* DriverLicenceDAO.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DriverLicenceDAO.swift; path = DAO/DriverLicenceDAO.swift; sourceTree = "<group>"; };
+		67858E241F52656800F96ACE /* DriverLicenceService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DriverLicenceService.swift; path = Service/DriverLicenceService.swift; sourceTree = "<group>"; };
+		67858E261F5271F300F96ACE /* CustomActivityIndicator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CustomActivityIndicator.swift; path = Module/DriverRecognizer/CustomActivityIndicator.swift; sourceTree = "<group>"; };
+		67858E291F528CFC00F96ACE /* DriverDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DriverDetailViewController.swift; path = Module/DriverDetail/DriverDetailViewController.swift; sourceTree = "<group>"; };
+		67F1F2051F50C75700B34487 /* ScanID.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ScanID.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		67F1F2081F50C75700B34487 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		67F1F20A1F50C75700B34487 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		67F1F20D1F50C75700B34487 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		67F1F20F1F50C75700B34487 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		67F1F2121F50C75700B34487 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		67F1F2141F50C75700B34487 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		67F1F21A1F50CCA600B34487 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		67F1F21C1F50CF4700B34487 /* libTesseractOCRiOS.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libTesseractOCRiOS.a; path = "../../../Library/Developer/Xcode/DerivedData/ScanID-bbnhyyuxfoirofezlyypjgpijuew/Build/Products/Debug-iphonesimulator/TesseractOCRiOS/libTesseractOCRiOS.a"; sourceTree = "<group>"; };
+		67F1F21E1F50D14900B34487 /* tessdata */ = {isa = PBXFileReference; lastKnownFileType = folder; path = tessdata; sourceTree = "<group>"; };
+		67F1F2201F50D1D000B34487 /* ScanID-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ScanID-Bridging-Header.h"; sourceTree = "<group>"; };
+		67F1F2281F50E4CC00B34487 /* BaseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = BaseViewController.swift; path = General/BaseViewController.swift; sourceTree = "<group>"; };
+		67F1F22C1F50E55300B34487 /* ScannerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ScannerViewController.swift; path = Module/Scanner/ScannerViewController.swift; sourceTree = "<group>"; };
+		67F1F22E1F50E58700B34487 /* ScannerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ScannerView.swift; path = Module/Scanner/ScannerView.swift; sourceTree = "<group>"; };
+		67F1F2311F51292900B34487 /* DriverListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DriverListViewController.swift; path = Module/DriverList/DriverListViewController.swift; sourceTree = "<group>"; };
+		67F1F2331F512DC400B34487 /* BaseNavigationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = BaseNavigationController.swift; path = General/BaseNavigationController.swift; sourceTree = "<group>"; };
+		AAEA7618CF808B2A6F4E5D64 /* libPods-ScanID.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ScanID.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		67F1F2021F50C75700B34487 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				67F1F21D1F50CF4700B34487 /* libTesseractOCRiOS.a in Frameworks */,
+				67F1F21B1F50CCA600B34487 /* libz.tbd in Frameworks */,
+				B476BDCCF2A2377606C0D89D /* libPods-ScanID.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		25FECC027C7A29EF2D28BF48 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				67F1F21C1F50CF4700B34487 /* libTesseractOCRiOS.a */,
+				67F1F21A1F50CCA600B34487 /* libz.tbd */,
+				AAEA7618CF808B2A6F4E5D64 /* libPods-ScanID.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		67858E0B1F51624200F96ACE /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				67858E1A1F52340700F96ACE /* String+IdentityParser.swift */,
+			);
+			name = Category;
+			sourceTree = "<group>";
+		};
+		67858E101F51635200F96ACE /* DriverRecognizer */ = {
+			isa = PBXGroup;
+			children = (
+				67858E111F5163CE00F96ACE /* DriverRecognizerViewController.swift */,
+				67858E261F5271F300F96ACE /* CustomActivityIndicator.swift */,
+			);
+			name = DriverRecognizer;
+			sourceTree = "<group>";
+		};
+		67858E151F522E5B00F96ACE /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				67858E161F522E9600F96ACE /* BaseEntity.swift */,
+				67858E181F522EB100F96ACE /* DriverLicenseEntity.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		67858E1C1F52548300F96ACE /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				67858E1D1F52548C00F96ACE /* DB */,
+			);
+			name = Helper;
+			sourceTree = "<group>";
+		};
+		67858E1D1F52548C00F96ACE /* DB */ = {
+			isa = PBXGroup;
+			children = (
+				67858E1E1F5254AF00F96ACE /* DBHelper.swift */,
+			);
+			name = DB;
+			sourceTree = "<group>";
+		};
+		67858E201F525BD300F96ACE /* DAO */ = {
+			isa = PBXGroup;
+			children = (
+				67858E211F525C0A00F96ACE /* DriverLicenceDAO.swift */,
+			);
+			name = DAO;
+			sourceTree = "<group>";
+		};
+		67858E231F52652F00F96ACE /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				67858E241F52656800F96ACE /* DriverLicenceService.swift */,
+			);
+			name = Service;
+			sourceTree = "<group>";
+		};
+		67858E281F528CCE00F96ACE /* DriverDetail */ = {
+			isa = PBXGroup;
+			children = (
+				67858E291F528CFC00F96ACE /* DriverDetailViewController.swift */,
+			);
+			name = DriverDetail;
+			sourceTree = "<group>";
+		};
+		67F1F1FC1F50C75700B34487 = {
+			isa = PBXGroup;
+			children = (
+				67F1F2071F50C75700B34487 /* ScanID */,
+				67F1F2061F50C75700B34487 /* Products */,
+				955A615BAB256C0AA7263A4E /* Pods */,
+				25FECC027C7A29EF2D28BF48 /* Frameworks */,
+				67F1F2201F50D1D000B34487 /* ScanID-Bridging-Header.h */,
+			);
+			sourceTree = "<group>";
+		};
+		67F1F2061F50C75700B34487 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				67F1F2051F50C75700B34487 /* ScanID.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		67F1F2071F50C75700B34487 /* ScanID */ = {
+			isa = PBXGroup;
+			children = (
+				67858E231F52652F00F96ACE /* Service */,
+				67858E201F525BD300F96ACE /* DAO */,
+				67858E1C1F52548300F96ACE /* Helper */,
+				67858E151F522E5B00F96ACE /* Model */,
+				67858E0B1F51624200F96ACE /* Category */,
+				67F1F22A1F50E4EF00B34487 /* Module */,
+				67F1F2241F50E3FF00B34487 /* General */,
+				67F1F2081F50C75700B34487 /* AppDelegate.swift */,
+				67F1F20A1F50C75700B34487 /* ViewController.swift */,
+				67F1F20C1F50C75700B34487 /* Main.storyboard */,
+				67F1F21E1F50D14900B34487 /* tessdata */,
+				67F1F20F1F50C75700B34487 /* Assets.xcassets */,
+				67F1F2111F50C75700B34487 /* LaunchScreen.storyboard */,
+				67F1F2141F50C75700B34487 /* Info.plist */,
+			);
+			path = ScanID;
+			sourceTree = "<group>";
+		};
+		67F1F2241F50E3FF00B34487 /* General */ = {
+			isa = PBXGroup;
+			children = (
+				67F1F2281F50E4CC00B34487 /* BaseViewController.swift */,
+				67F1F2331F512DC400B34487 /* BaseNavigationController.swift */,
+			);
+			name = General;
+			sourceTree = "<group>";
+		};
+		67F1F22A1F50E4EF00B34487 /* Module */ = {
+			isa = PBXGroup;
+			children = (
+				67858E281F528CCE00F96ACE /* DriverDetail */,
+				67858E101F51635200F96ACE /* DriverRecognizer */,
+				67F1F2301F51284E00B34487 /* DriverList */,
+				67F1F22B1F50E4FC00B34487 /* Scanner */,
+			);
+			name = Module;
+			sourceTree = "<group>";
+		};
+		67F1F22B1F50E4FC00B34487 /* Scanner */ = {
+			isa = PBXGroup;
+			children = (
+				67F1F22C1F50E55300B34487 /* ScannerViewController.swift */,
+				67F1F22E1F50E58700B34487 /* ScannerView.swift */,
+			);
+			name = Scanner;
+			sourceTree = "<group>";
+		};
+		67F1F2301F51284E00B34487 /* DriverList */ = {
+			isa = PBXGroup;
+			children = (
+				67F1F2311F51292900B34487 /* DriverListViewController.swift */,
+			);
+			name = DriverList;
+			sourceTree = "<group>";
+		};
+		955A615BAB256C0AA7263A4E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				53FFDA79D1501AC592FB59B4 /* Pods-ScanID.debug.xcconfig */,
+				5745982F6C4716B9AC38D350 /* Pods-ScanID.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		67F1F2041F50C75700B34487 /* ScanID */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 67F1F2171F50C75700B34487 /* Build configuration list for PBXNativeTarget "ScanID" */;
+			buildPhases = (
+				4E2B5FB9DBE484CBBC0310E5 /* [CP] Check Pods Manifest.lock */,
+				67F1F2011F50C75700B34487 /* Sources */,
+				67F1F2021F50C75700B34487 /* Frameworks */,
+				67F1F2031F50C75700B34487 /* Resources */,
+				E94ABFBAD53BDB3E20F86A2F /* [CP] Embed Pods Frameworks */,
+				FEF279C2083068C7A59B6DA0 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ScanID;
+			productName = ScanID;
+			productReference = 67F1F2051F50C75700B34487 /* ScanID.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		67F1F1FD1F50C75700B34487 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = simpletask;
+				TargetAttributes = {
+					67F1F2041F50C75700B34487 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = 2ZUXQ45DY4;
+						LastSwiftMigration = 0830;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 67F1F2001F50C75700B34487 /* Build configuration list for PBXProject "ScanID" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 67F1F1FC1F50C75700B34487;
+			productRefGroup = 67F1F2061F50C75700B34487 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				67F1F2041F50C75700B34487 /* ScanID */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		67F1F2031F50C75700B34487 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				67F1F2131F50C75700B34487 /* LaunchScreen.storyboard in Resources */,
+				67F1F21F1F50D14900B34487 /* tessdata in Resources */,
+				67F1F2101F50C75700B34487 /* Assets.xcassets in Resources */,
+				67F1F20E1F50C75700B34487 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4E2B5FB9DBE484CBBC0310E5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		E94ABFBAD53BDB3E20F86A2F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ScanID/Pods-ScanID-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FEF279C2083068C7A59B6DA0 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ScanID/Pods-ScanID-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		67F1F2011F50C75700B34487 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				67F1F2321F51292900B34487 /* DriverListViewController.swift in Sources */,
+				67858E1B1F52340700F96ACE /* String+IdentityParser.swift in Sources */,
+				67858E2A1F528CFC00F96ACE /* DriverDetailViewController.swift in Sources */,
+				67858E171F522E9600F96ACE /* BaseEntity.swift in Sources */,
+				67F1F2341F512DC400B34487 /* BaseNavigationController.swift in Sources */,
+				67F1F20B1F50C75700B34487 /* ViewController.swift in Sources */,
+				67858E221F525C0A00F96ACE /* DriverLicenceDAO.swift in Sources */,
+				67F1F2091F50C75700B34487 /* AppDelegate.swift in Sources */,
+				67F1F2291F50E4CC00B34487 /* BaseViewController.swift in Sources */,
+				67858E271F5271F300F96ACE /* CustomActivityIndicator.swift in Sources */,
+				67858E1F1F5254AF00F96ACE /* DBHelper.swift in Sources */,
+				67858E251F52656800F96ACE /* DriverLicenceService.swift in Sources */,
+				67858E121F5163CE00F96ACE /* DriverRecognizerViewController.swift in Sources */,
+				67F1F22D1F50E55300B34487 /* ScannerViewController.swift in Sources */,
+				67858E191F522EB100F96ACE /* DriverLicenseEntity.swift in Sources */,
+				67F1F22F1F50E58700B34487 /* ScannerView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		67F1F20C1F50C75700B34487 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				67F1F20D1F50C75700B34487 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		67F1F2111F50C75700B34487 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				67F1F2121F50C75700B34487 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		67F1F2151F50C75700B34487 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		67F1F2161F50C75700B34487 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		67F1F2181F50C75700B34487 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 53FFDA79D1501AC592FB59B4 /* Pods-ScanID.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				DEVELOPMENT_TEAM = 2ZUXQ45DY4;
+				ENABLE_BITCODE = NO;
+				INFOPLIST_FILE = ScanID/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.simpletask.ScanID1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "ScanID-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		67F1F2191F50C75700B34487 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5745982F6C4716B9AC38D350 /* Pods-ScanID.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				DEVELOPMENT_TEAM = 2ZUXQ45DY4;
+				ENABLE_BITCODE = NO;
+				INFOPLIST_FILE = ScanID/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.simpletask.ScanID1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "ScanID-Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		67F1F2001F50C75700B34487 /* Build configuration list for PBXProject "ScanID" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				67F1F2151F50C75700B34487 /* Debug */,
+				67F1F2161F50C75700B34487 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		67F1F2171F50C75700B34487 /* Build configuration list for PBXNativeTarget "ScanID" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				67F1F2181F50C75700B34487 /* Debug */,
+				67F1F2191F50C75700B34487 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 67F1F1FD1F50C75700B34487 /* Project object */;
+}
